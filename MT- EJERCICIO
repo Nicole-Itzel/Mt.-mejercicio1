@@ -1,0 +1,15 @@
+---
+title: "MT. metabolomica"
+author: "Nicole Castañeda"
+date: "2025-03-05"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r}
+Tabla_edad <- data.frame(
+  Nombre = c("Sonia", "Rebeca", "Juan", "Amanda", "Gilberto"),
+  Edad = c(25, 20, 19, 19, 25),
+  Estatura = c(1.6, 1.78, 1.9, 1.55, 1.7)
+)
+Tabla_edad
